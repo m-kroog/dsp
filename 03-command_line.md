@@ -20,7 +20,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Command Line Cheat Sheet:
+    * show current working directory path = pwd
+    * creating a directory = mkdir
+    * deleting a directory = rmdir
+    * creating a file using `touch` command = touch file.txt
+    * deleting a file = rm
+    * renaming a file = mv oldfilename newfilename
+    * listing hidden files = ls -a
+    * copying a file from one directory to another = cp source destination
+    * print a file = cat
+    * look at enviornment = env
+    * global regular expression print = grep
 
 ---
 
@@ -32,18 +43,28 @@ What do the following commands do:
 `ls -l`  
 `ls -lh`  
 `ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls -t` `ls`
+`ls -t`	
+`ls -Glp``  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > `ls` = list files and directories
+    `ls -a` = list all hidden files and directories
+    `ls -l` = list all files and directories in long format
+    `ls -lh` = long listing with Human readable files sizes
+    `ls -lah` = long listing with all hidden files and Human readable file sizes
+    `ls -t` = long listing organized by time
+    `ls -Glp`` = long list, doens't print group name, append / to directories
 ---
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -m = displays names as comma separated list
+    ls -o = long list but excludes group name
+    ls -r = displays files in reverse order
+    ls -R = displays subdirectories
+    ls -x = displays files as rows
 
 ---
 
@@ -51,7 +72,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'xargs' is a command used to convert inputs from STDIN into arugments to command. An example is xargs find -name, where you would specify the name of the f    ile as an input.
 
  
+
 
