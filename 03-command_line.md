@@ -38,13 +38,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`
-`ls -a`
-`ls -l`
-`ls -lh`
-`ls -lah`
-`ls -t`
-`ls -Glp` 
+`ls`  
+`ls -a`  
+`ls -l`  
+`ls -lh`  
+`ls -lah`  
+`ls -t`  
+`ls -Glp`  
 
 > > `ls` = list files and directories
     `ls -a` = list all hidden files and directories
@@ -52,7 +52,7 @@ What do the following commands do:
     `ls -lh` = long listing with Human readable files sizes
     `ls -lah` = long listing with all hidden files and Human readable file sizes
     `ls -t` = long listing organized by time
-    `ls -Glp`` = long list, doens't print group name, append / to directories
+    `ls -Glp` = long list, doens't print group name, append / to directories
 ---
 
 ### Q3.  More List Files in Unix  
@@ -71,7 +71,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 'xargs' is a command used to convert inputs from STDIN into arugments to command. An example is xargs find -name, where you would specify the name of the f    ile as an input.
+> > 'xargs' is a command used to convert inputs from STDIN into arugments to command. An example is xargs find -name, where you would specify the name of the file as an input.
 
  
 
