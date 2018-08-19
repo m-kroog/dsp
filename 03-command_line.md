@@ -43,9 +43,8 @@ What do the following commands do:
 `ls -l`  
 `ls -lh`  
 `ls -lah`  
-`ls -t` `ls`
 `ls -t`	
-`ls -Glp``  
+`ls -Glp`  
 
 > > `ls` = list files and directories
     `ls -a` = list all hidden files and directories
