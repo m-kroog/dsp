@@ -46,13 +46,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls` = list files and directories
+> > `ls` = list files and directories**
     `ls -a` = list all hidden files and directories
     `ls -l` = list all files and directories in long format
     `ls -lh` = long listing with Human readable files sizes
     `ls -lah` = long listing with all hidden files and Human readable file sizes
     `ls -t` = long listing organized by time
-    `ls -Glp` = long list, doens't print group name, append / to directories
+    `ls -Glp` = long list, doesn't print group name, append / to directories
 ---
 
 ### Q3.  More List Files in Unix  
